@@ -1,0 +1,235 @@
+.font-size {
+    font-size: 14px;
+}
+
+.bg-img {
+    background-image: url(./imgs/ezitech1\ \(1\)\ bg-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+
+    font-weight: bold;
+}
+.hero-content p {
+    font-size: 1.2rem;
+
+    margin-bottom: 20px;
+}
+
+.search-box {
+    max-width: 90%;
+
+    margin: 0 auto;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: 80px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+        /* Smaller heading on mobile */
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        /* Adjust text for better fit */
+    }
+
+    .hero-section {
+        height: auto;
+        /* Allow height to adjust on smaller screens */
+        padding-bottom: 30px;
+        /* Add padding for content */
+    }
+
+    .search-box input {
+        width: 100%;
+        /* Ensure search box fills mobile screens */
+        margin-bottom: 10px;
+        /* Add space between search box and button */
+    }
+
+    .search-box button {
+        width: 100%;
+        /* Make the button full-width on mobile */
+    }
+
+    .products img {
+        width: 60px;
+        /* Adjust icon size on mobile */
+    }
+}
+
+.circle-background {
+    width: 300px;
+    height: 300px;
+    background-color: #4169E1;
+
+    border-radius: 50%;
+    z-index: -1;
+
+}
+
+@media (min-width: 768px) {
+    .circle-background {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+.img-width {
+    width: 170px;
+}
+
+.blue-color {
+    color: #00CAFF;
+}
+
+.input {
+    width: 35%;
+    padding: 18px 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.searchIcon {
+    top: 16px;
+    left: 865px;
+    color: #dadada;
+    font-size: 27px;
+}
+
+.searchIcon:hover {
+    color: #919191;
+}
+
+.cards2 {
+    box-shadow: 1px 1px 8px 5px rgba(0, 0, 0, 0.1);
+    padding: 40px 50px 40px 45px;
+    width: 160px;
+}
+
+.cards2 span {
+    width: 100px;
+    text-align: center;
+    margin-left: -17px;
+}
+
+.cards2 img {
+    width: 70px;
+}
+
+.cards2:hover {
+    transform: scale(1.1);
+}
+
+
+.ios {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.blue {
+    background-color: #385ACD;
+}
+
+.img-intern {
+    background-image: url("imgs/code.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-intern {
+    background-color: rgba(24, 0, 129, 0.8);
+    position: absolute;
+    top: 10;
+    left: 0;
+    height: 105vh;
+    width: 100%;
+}
+
+.code-img {
+    background-image: url("./imgs/code.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    width: 350px;
+    position: relative;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}.color-blue {
+    color: #042D89;
+    background-color: #F0F7F4;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.card-intern {
+    width: 350px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 8px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+
+.card-intern:hover {
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.1);
+    transform: scale(0.9);
+
+}
+
+.Hybrid {
+    background-color: #F0F7F4;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.readBtn {
+    border: none;
+    padding: 8px 25px;
+    color: #fff;
+    background-color: #326EC9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.readBtn:hover {
+    background-color: #042D89;
+}
+
+
+.bg-color {
+    background-color: #052267;
+    padding: 70px;
+
+}
+
